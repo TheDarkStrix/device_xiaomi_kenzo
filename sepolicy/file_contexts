@@ -4,3 +4,8 @@
 /sys/devices/soc.0/fpc_fpc1020.*/hw_reset                             u:object_r:fpc_sysfs:s0
 /sys/devices/soc.0/fpc_fpc1020.*/irq                                  u:object_r:fpc_sysfs:s0
 /sys/devices/soc.0/fpc_fpc1020.*/wakeup_enable                        u:object_r:fpc_sysfs:s0
+
+#Bluetooth
+/dev/smd3                                                             u:object_r:hci_attach_dev:s0
+/persist/.bt_nv.bin                                                   u:object_r:bluetooth_data_file:s0		                  
+/system/etc/init\.qcom\.bt\.sh                                        u:object_r:bluetooth_loader_exec:s0
