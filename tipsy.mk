@@ -17,14 +17,13 @@
 $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
 # Inherit some common GZR stuff.
-$(call inherit-product, vendor/tesla/config/common_full_phone.mk)
-$(call inherit-product, vendor/tesla/config/caf_fw.mk)
+$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := tesla_kenzo
+PRODUCT_NAME := tipsy_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi
